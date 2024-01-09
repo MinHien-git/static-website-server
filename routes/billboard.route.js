@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get("/billboard", async (req, res) => {
   var billboard = require("../data/billboard.json");
-  var reports = require("../data/report.json");
+  var reports = require("../data/report1.json");
 
   return res.json({
     success: true,
